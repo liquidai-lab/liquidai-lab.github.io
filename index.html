@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liquid AI</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-shield"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="blob blob-4"></div>
+    <!-- <div class="site-background">
+        Stars will be added here by JavaScript
+    </div> -->
+    <div class="content-wrapper">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40">
+                        <path d="M20 0L40 20L20 40L0 20L20 0Z" fill="url(#logo-gradient)"/>
+                        <path d="M20 10L30 20L20 30L10 20L20 10Z" fill="var(--dark)"/>
+                        <defs>
+                            <linearGradient id="logo-gradient" x1="0" y1="0" x2="40" y2="40">
+                                <stop offset="0%" style="stop-color:#2EA6FF"/>
+                                <stop offset="100%" style="stop-color:#6C63FF"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span class="logo-text">liquid</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#buy">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Buy</span>
+                    </a>
+                    <a href="#features">
+                        <i class="fas fa-star"></i>
+                        <span>Features</span>
+                    </a>
+                    <a href="#why">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Why</span>
+                    </a>
+                    <a href="#faq">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQ</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="container">
+                <h1>liquid AI</h1>
+                <p>Flow Like Water, Trade Like AI</p>
+                <div class="cta-group">
+                    <a href="#buy" class="primary-button">
+                        <i class="fas fa-water"></i>
+                        <span>Dive In</span>
+                    </a>
+                    <a href="#" class="secondary-button">
+                        <i class="fab fa-telegram"></i>
+                        <span>Join The Stream</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section id="buy" class="how-to-buy">
+            <div class="container">
+                <h2 class="section-title desktop-only">Access liquid AI</h2>
+                <p class="section-description desktop-only">Dive into the future of algorithmic trading</p>
+                
+                <div class="access-card">
+                    <div class="requirements-grid">
+                        <div class="requirement-item">
+                            <div class="requirement-icon">
+                                <i class="fas fa-water"></i>
+                            </div>
+                            <div class="requirement-text">
+                                <h3>Required Holdings</h3>
+                                <p>$100 USDC in liquid tokens</p>
+                            </div>
+                        </div>
+                        <div class="requirement-item">
+                            <div class="requirement-icon">
+                                <i class="fas fa-wallet"></i>
+                            </div>
+                            <div class="requirement-text">
+                                <h3>Supported Wallet</h3>
+                                <p>Any Solana-Compatible Wallet</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contract-card">
+                        <div class="contract-header">
+                            <i class="fas fa-water"></i>
+                            <h3>Pool Address</h3>
+                        </div>
+                        <div class="contract-address">
+                            <code>F9TdzTUXPN3hEB7Zyfn4qHc8PyTDZCkarrGTGE9opump</code>
+                            <button class="copy-button" onclick="copyAddress()">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <a href="#" class="primary-button">
+                            <i class="fas fa-water"></i>
+                            <span>Trade on Raydium</span>
+                        </a>
+                        <a href="#" class="secondary-button">
+                            <i class="fas fa-chart-line"></i>
+                            <span>View Chart</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title desktop-only">Master The Flow</h2>
+                <div class="feature-grid">
+                    <div class="feature-card" data-parallax="0.1">
+                        <i class="fas fa-wave-square"></i>
+                        <h3>Wave Rider</h3>
+                        <p>Surf the market waves with precision timing and execution</p>
+                    </div>
+                    <div class="feature-card" data-parallax="0.15">
+                        <i class="fas fa-water"></i>
+                        <h3>Fluid Power</h3>
+                        <p>Execute up to 100 transactions per second with liquid smooth precision</p>
+                    </div>
+                    <div class="feature-card" data-parallax="0.2">
+                        <i class="fas fa-stream"></i>
+                        <h3>Stream Analytics</h3>
+                        <p>Real-time market flow analysis and predictive modeling</p>
+                    </div>
+                    <div class="feature-card" data-parallax="0.25">
+                        <i class="fas fa-tint"></i>
+                        <h3>liquidity Fusion</h3>
+                        <p>Seamlessly merge with public liquidity pools for optimal trading conditions</p>
+                    </div>
+                    <div class="feature-card" data-parallax="0.3">
+                        <i class="fas fa-water"></i>
+                        <h3>Deep Dive</h3>
+                        <p>Penetrate market depths for maximum trading advantage</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why" class="why-liquid">
+            <div class="container">
+                <div class="why-content">
+                    <div class="why-header desktop-only">
+                        <h2>The <span class="highlight">Arsenal</span> of liquid</h2>
+                        <h3 class="why-subtitle">Dominate. Conquer. Prevail.</h3>
+                    </div>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card" data-parallax="0.15">
+                            <div class="stat-value">100</div>
+                            <div class="stat-label">TPS</div>
+                            <p class="stat-description">Unstoppable Transaction Power</p>
+                        </div>
+                        <div class="stat-card" data-parallax="0.2">
+                            <div class="stat-value">10x</div>
+                            <div class="stat-label">Force Multiplier</div>
+                            <p class="stat-description">Over the Competition</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2 class="section-title desktop-only">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What is liquid AI?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>liquid AI is an advanced trading automation platform that uses fluid dynamics-inspired algorithms to optimize market performance and enhance trading strategies.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do I get access?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Simply hold the minimum required amount of liquid tokens in your Solana wallet to gain full access to the platform's features.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Is it secure?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, liquid AI implements state-of-the-art security protocols and has undergone thorough security audits to ensure maximum protection.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Which chains are supported?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Currently, liquid AI operates on the Solana blockchain, with plans to expand support to additional chains in the future.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h4>Command Center</h4>
+                        <div class="footer-contact">
+                            <p>
+                                <i class="fas fa-envelope"></i>
+                                <span>command@liquid.io</span>
+                            </p>
+                            <p>
+                                <i class="fas fa-clock"></i>
+                                <span>Operations: 09:00 - 23:00 CET</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Join the Stream</h4>
+                        <a href="#">
+                            <i class="fab fa-telegram"></i>
+                            <span>Telegram</span>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 liquid AI. All rights reserved. | Flow Through Innovation</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
