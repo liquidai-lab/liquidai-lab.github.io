@@ -23,7 +23,7 @@ function initTelegramBot() {
 
 // Copy functionality with Telegram-style toast
 function copyAddress() {
-    const address = 'F9TdzTUXPN3hEB7Zyfn4qHc8PyTDZCkarrGTGE9opump';
+    const address = '5kaVd5gCchR23zZKk7NgKw25oaNKSwK86eeouHkZpump';
     navigator.clipboard.writeText(address)
         .then(() => {
             const copyButton = document.querySelector('.copy-button');
